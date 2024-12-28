@@ -51,6 +51,7 @@ ALLOW_MISSING_DEPENDENCIES := true
 TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
 
+
 # Platform
 TARGET_BOARD_PLATFORM := universal8825
 
@@ -98,7 +99,7 @@ BOARD_ROOT_EXTRA_FOLDERS := carrier data_mirror debug_ramdisk efs linkerconfig m
 BOARD_SUPPRESS_SECURE_ERASE := true
 
 # Workaround for error copying vendor files to recovery ramdisk
-BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE := f2fs
+BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE := erofs
 TARGET_COPY_OUT_VENDOR := vendor
 
 AB_OTA_UPDATER := false

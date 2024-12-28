@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/samsung/a33x
+LOCAL_PATH := device/samsung/a25x
 
 # Bootloader
 BOARD_VENDOR := samsung
@@ -126,7 +126,7 @@ BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
 DISABLE_ARTIFACT_PATH_REQUIREMENTS := true
 
 # TWRP specific build flags
-TW_DEVICE_VERSION := Samsung Galaxy A33 5G
+TW_DEVICE_VERSION := Samsung Galaxy A25 5G
 TW_INCLUDE_REPACKTOOLS := true
 TW_INCLUDE_LIBRESETPROP := true
 TW_INCLUDE_RESETPROP := true

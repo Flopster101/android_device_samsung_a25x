@@ -23,4 +23,4 @@ PRODUCT_PACKAGES += \
     fastbootd
 
 # Some useful binaries
-PRODUCT_PACKAGES += shrink bxhsed
+PRODUCT_PACKAGES += shrink_a25x bxhsed_a25x

@@ -1,5 +1,5 @@
 cc_binary {
-    name: "shrink",
+    name: "shrink_a25x",
     recovery: true,
     srcs: ["shrink.cpp"]
 }

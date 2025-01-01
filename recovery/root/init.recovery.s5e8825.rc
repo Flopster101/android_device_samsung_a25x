@@ -37,6 +37,10 @@ on init
 # to cut charging battery path
     write /sys/class/power_supply/battery/siop_level 0
 
+# Determine device
+on init
+    exec u:r:recovery:s0 -- /system/bin/device-detect.sh
+
 on late-init
     setprop sys.usb.controller 13200000.dwc3
     setprop ro.debuggable 1

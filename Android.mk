@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-ifneq ($(filter a25x, $(TARGET_DEVICE)),)
+ifneq ($(filter uni1280, $(TARGET_DEVICE)),)
 
 LOCAL_PATH := $(call my-dir)
 

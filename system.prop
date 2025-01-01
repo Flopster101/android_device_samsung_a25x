@@ -1,4 +1,4 @@
-ro.display.series=Samsung A25 5G
+ro.display.series=Exynos 1280 Series
 ro.product.board=s5e8825
 ro.board.platform=universal8825
 sys.usb.controller=13200000.dwc3

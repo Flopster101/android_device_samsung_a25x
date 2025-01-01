@@ -15,7 +15,7 @@
 #
 
 # Release name
-PRODUCT_RELEASE_NAME := a25x
+PRODUCT_RELEASE_NAME := uni1280
 
 # Inherit from common AOSP config
 $(call inherit-product, $(SRC_TARGET_DIR)/product/base.mk)
@@ -28,18 +28,18 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
 $(call inherit-product, vendor/twrp/config/common.mk)
 
 # Inherit device configuration
-$(call inherit-product, device/samsung/a25x/device.mk)
+$(call inherit-product, device/samsung/uni1280/device.mk)
 
 # Charger
 PRODUCT_PACKAGES += \
     charger_res_images
 
-PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,device/samsung/a25x/recovery/root,recovery/root)
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,device/samsung/uni1280/recovery/root,recovery/root)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_NAME := twrp_a25x
-PRODUCT_DEVICE := a25x
-PRODUCT_MODEL := SM-A256E
+PRODUCT_NAME := twrp_uni1280
+PRODUCT_DEVICE := uni1280
+PRODUCT_MODEL := S5E8825
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_GMS_CLIENTID_BASE := android-samsung

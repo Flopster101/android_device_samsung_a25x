@@ -15,6 +15,6 @@
 #
 
 PRODUCT_MAKEFILES := \
-	$(LOCAL_DIR)/twrp_a25x.mk
+	$(LOCAL_DIR)/twrp_uni1280.mk
 
-COMMON_LUNCH_CHOICES := twrp_a25x-eng
+COMMON_LUNCH_CHOICES := twrp_uni1280-eng
